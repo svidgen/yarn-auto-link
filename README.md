@@ -19,4 +19,3 @@ auto-link
 ```
 rm rf node_modules && yarn
 ```
-
