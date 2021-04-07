@@ -2,12 +2,12 @@
 	"name": "auto-link",
 	"version": "1.0.0",
 	"description": "looks for package symlinks and automatically links them up",
-	"main": "index.js",
+	"main": "./lib/auto-link.js",
 	"bin": {
-		"auto-links": "./bin/auto-link"
+		"auto-link": "./bin/auto-link"
 	},
 	"scripts": {
-		"auto-links": "./bin/auto-link",
+		"auto-link": "./bin/auto-link",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Jon Wire",
