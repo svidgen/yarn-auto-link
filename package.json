@@ -1,0 +1,20 @@
+{
+	"name": "auto-link",
+	"version": "1.0.0",
+	"description": "looks for package symlinks and automatically links them up",
+	"main": "index.js",
+	"bin": {
+		"auto-links": "./bin/auto-link"
+	},
+	"scripts": {
+		"auto-links": "./bin/auto-link",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Jon Wire",
+	"license": "MIT",
+	"dependencies": {
+		"expand-tilde": "^2.0.2",
+		"glob": "^7.1.6",
+		"rimraf": "^3.0.2"
+	}
+}
