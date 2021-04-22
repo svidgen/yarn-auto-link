@@ -1,3 +1,25 @@
 #!/usr/bin/env node
 
-require('../lib/auto-link.js').link();
+const { Command } = require('commander');
+const linker = require('../lib/auto-link.js');
+
+const args = (new Command())
+	.option(
+		'-c --copy',
+		"Copy packages instead of symlinking."
+	)
+	.option(
+		'-v --verbose',
+		"Show detailed output"
+	)
+	.option(
+		'-w --warnings',
+		"Show warnings"
+	)
+	.parse()
+	.opts()
+;
+
+console.log('attempting to run with', args);
+
+linker.link(args);
