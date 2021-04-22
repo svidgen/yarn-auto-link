@@ -30,6 +30,12 @@ Then, from the root directory of the consuming package:
 auto-link
 ```
 
+If your bundler can't work with symlinks, use copies instead:
+
+```
+auto-link -c
+```
+
 Finally, run your code!
 
 ### Clean
