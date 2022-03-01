@@ -12,16 +12,10 @@ yarn global add https://github.com/svidgen/yarn-auto-link
 
 ### Use
 
-From the root directory of your dependency package:
+From the root directory of your dependencies:
 
 ```
 yarn link
-```
-
-Or, if you're working with a bunch of dependencies in a multi-package repository:
-
-```
-yarn link-all
 ```
 
 Then, from the root directory of the consuming package:
