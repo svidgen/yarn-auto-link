@@ -1,6 +1,6 @@
 # auto-link
 
-Looks for existing links created with `yarn link` or `yarn link-all` and adds them to the local `node_modules` directory.
+Looks for existing links created with `yarn link` and adds them to the local `node_modules` directory.
 
 ## Install
 
